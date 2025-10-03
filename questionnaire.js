@@ -26,7 +26,7 @@ function askQuestion() {
         rl.close();
 
         writeFileSync("reponses.txt", answers.join("\n"), "utf-8");
-        console.log("Toutes les réponses ont été enregistrées dans reponses.txt ✅");
+        console.log("Toutes les réponses ont été enregistrées dans reponses.txt");
     }
 }
 
